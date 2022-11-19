@@ -6,7 +6,6 @@ body {
     display: flex;
     justify-content: center;
 }
-
 .wrapper {
     width: 1200px;
     display: flex;
@@ -61,7 +60,6 @@ body {
     width: 500px;
     clear: both;
 }
-  
 .campos input {
     width: 100%;
     clear: both;
@@ -70,4 +68,23 @@ body {
     width: 100%;
     clear: both;
     resize: none;
+}
+table, th, td {
+    border: solid 1px gray;
+    border-collapse: collapse;
+}
+table thead th {
+    padding: 15px;
+}
+table tbody td {
+    padding: 15px;
+}
+table tfoot td {
+    padding: 5px;
+}
+table tbody tr:nth-child(even) td {
+    background-color: #1f2a38;
+}
+table tbody tr:hover td {
+    background-color: #2c3f5a;
 }
