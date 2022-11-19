@@ -1,0 +1,73 @@
+html, body {
+    margin: 0;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: aquamarine;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu a:link {
+    color: cyan;
+}
+.menu a:visited {
+    color: magenta;
+}
+.menu a:hover {
+    color: yellow;
+}
+.menu a:active {
+    color: red;
+}
+.menu {
+    color: white;
+    lighting-color: #f1f1f1;
+    width: 15%;
+    background-color: rgb(3, 3, 3);
+    padding: 10px 20px 0px;
+}
+.header {
+    color: white;
+    background-color: rgb(5, 5, 5);
+}
+.content {
+    color: rgb(250, 250, 250);
+    background-color: black;
+    min-height: 300px;
+    padding: 20px;
+}
+.footer p {
+    line-height: 0.2;
+}
+.footer {
+    color: white;
+    background-color: rgb(5, 5, 5);
+    min-height: 100px;
+    text-align: center;
+    font-size: small;
+}
+.campos {
+    width: 500px;
+    clear: both;
+}
+  
+.campos input {
+    width: 100%;
+    clear: both;
+}
+.campos textarea {
+    width: 100%;
+    clear: both;
+    resize: none;
+}
